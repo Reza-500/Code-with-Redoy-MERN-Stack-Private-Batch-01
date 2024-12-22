@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>009 no. video</title>
+  <style>
+    * {
+      background-color: lightseagreen;
+    }
+
+    h1 {
+      background-color: violet;
+    }
+
+    #id1 {
+      color: red;
+    }
+
+    .class1 {
+      color: blue;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    h1,
+    h2 {
+      color: green;
+      font-style: italic;
+    }
+
+    div p {
+      color: yellow;
+      font-size: xx-large;
+    }
+
+    div>p {
+      color: rgb(255, 0, 208);
+      font-size: x-large;
+    }
+    div+p {
+      color: rgb(236, 11, 11);
+      text-align: right;
+    }
+    section~p{
+      color: snow;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Whole page is under universal selectors (Element Select+Grouping Select)</h1>
+  <h2 id="id1">Learning Id + grouping select</h2>
+  <div>
+    <p class="class1 center">Para 1 (Multiple Class+Descendant selectors+child selector)</p>
+    <p class="class1"> para 2 (Class+Descendant selectors+child selector)</p>
+  </div>                           
+  <p> para 3 (Adjacent selectors)</p>
+  <p>
+    Some combinator selectors:
+  <ul>
+    <li>Decenndant selectors </li>
+    <li>Child selectors</li>
+    <li>Adjacent sibling selectors</li>
+    <li>General sibling selector </li>
+  </ul>
+  </p>
+  <section>
+    <p> Para 4 ( section for General sibling selector)</p>
+  </section>
+  <p> Para 5 (General sibling selector 1)</p>
+  <p> para 6 (General sibling selector 2)</p>
+</body>
+
+</html>

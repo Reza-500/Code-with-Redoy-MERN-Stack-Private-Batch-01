@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>34 no. video</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px dotted blue;
+            border-collapse: collapse;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+        }
+
+        textarea {
+            background-color: aliceblue;
+        }
+
+        .endfooter {
+            background-color: rebeccapurple;
+            font-size: 20px;
+        }
+
+        #copyright {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Kamrul Islam Reza</h1>
+    <p align="center"> <img src="./image.jpg" alt="profile image" height="200" width="200"></p>
+    <hr>
+
+    <iframe src="https://studywithanis.com/" height="350" width="45%"></iframe>
+
+    <iframe width="45%" height="350" src="https://www.youtube.com/embed/cZmF3t9cbug?si=kIHP3nXFoj8iKRla"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias numquam laudantium in maiores ipsam delectus
+        doloribus, nemo, iste quisquam quae excepturi animi corrupti rerum saepe voluptas. Reiciendis soluta excepturi
+        voluptates?</p>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo quas odit iusto voluptate laboriosam!
+        Aspernatur natus laborum quibusdam odit quidem quos dolores dolorem qui unde perspiciatis sequi minima quae
+        similique, ducimus vitae, distinctio dignissimos quo iure asperiores harum magnam consequatur consectetur odio?
+        Eligendi enim eum ipsam aspernatur quos? Fugiat animi earum tempora quo impedit pariatur cum quisquam ipsa
+        minima optio maxime aut quasi neque, dolorem commodi, adipisci recusandae! Voluptatem officiis impedit
+        aspernatur, accusamus rerum quas reprehenderit repellendus veritatis ratione nemo ipsa inventore quis blanditiis
+        aliquid atque animi sequi nam iure esse non. Consequuntur nisi iusto fuga molestias, magni error!</p>
+    <hr>
+
+    <table align="center">
+        <caption>
+            <strong> Student Details</strong>
+        </caption>
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>208</td>
+                <td>Reza</td>
+                <td>3.86</td>
+            </tr>
+
+            <tr>
+                <td>304</td>
+                <td>Fahim</td>
+                <td rowspan="2">4.00</td>
+            </tr>
+
+            <tr>
+                <td>309</td>
+                <td>Maruf</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <hr>
+
+    <form>
+        <datalist id="username">
+            <option value="Maruf">Maruf</option>
+            <option value="Reza">Reza</option>
+        </datalist>
+        <!-- username -->
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="only letters & numbers" list="username" pattern="[a-zA-Z0-9]+">
+        </div><br>
+        <div>
+            <label for="Pass">Password:</label>
+            <input type="password" placeholder="enter your password" required>
+        </div><br>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" required>
+        </div><br>
+
+        <div>
+            <label for="Religion">Religion:</label>
+            <input type="checkbox" value="islam" name="Religion"> Islam
+            <input type="checkbox" value="hindu" name="Religion"> Hindu
+            <input type="checkbox" value="Others"> Others
+        </div><br>
+
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" value="male"> male
+            <input type="radio" name="gender" value="female"> female
+        </div><br>
+
+        <div>
+            <label for="DEpt">Department:</label>
+            <select name="" id="">
+                <option value="Sc">Science</option>
+                <option value="Arts">Arts</option>
+                <option value="Cmr" selected>Commerce</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="Message">Message:</label>
+            <textarea name="Message"></textarea>
+        </div><br>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+        <hr>
+
+        <video src="./videoplayback.mp4" type="video/mp4" controls height="200px" width="200px" alt="video"></video>
+
+        <audio
+            src="./Neha Kakkar  Tribute to Arijit Singh  Vibhor Parashar  Kunal Pandit  Smule Mirchi Music Awards.mp3"
+            type="audio/mpeg" controls alt="audio"></audio>
+        <hr>
+
+        <footer>
+            <ol type="i">
+                <li> <a href="#">Fb</a></li>
+                <li> <a href="#">YouTube</a></li>
+                <li> <a href="#">Go to top</a></li>
+            </ol>
+            <p class="endfooter">Devoloped by <span id="copyright">&copy; Reza</span></p>
+        </footer>
+
+    </form>
+
+</body>
+
+</html>

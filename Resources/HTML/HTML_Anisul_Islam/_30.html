@@ -8,11 +8,12 @@
 <body>
     <h1>Registration form </h1>
     <form>
-      <div>
-        <label for="fullname">Fullname: </label>  <input type="text" name="fullname" id="fullname">
+      <!--Name section-->
+      <div id="fullname">
+        <label for="fullname">Fullname: </label>  <input placeholder="enter your name" type="text" name="fullname" id="fullname">
       </div> <br>
-
-      <div>
+<!-- email section -->
+      <div id="email">
         <label for="email">Email: </label>  <input type="text" name="email" id="email">
       </div> <br>
       <div>
@@ -40,6 +41,22 @@
        <input type="checkbox" name="C1" id="religion" value="hindu">hindu
 
       </div> <br>
+      <div>
+        <label for="Department">Department</label>
+        <select>
+          <option>Science</option>
+          <option>Arts</option>
+          <option selected>Commerce</option>
+        </select>
+      </div> <br>
+      <div>
+        <label for="Feedback">Feedback</label> <br>
+        <textarea placeholder="Write yor feedback" cols="50" rows="6"></textarea>
+      </div> <br>
+      <div>
+        <input type="submit" value="submit here">
+        <input type="reset" value="clear">
+      </div>
     </form>
 
 

@@ -1,0 +1,17 @@
+/* decendent selector */
+div p {
+  color: red;
+}
+/* child selector */
+section > p {
+  background-color: violet;
+}
+/* Adjacent sibling selector */
+div + p {
+  text-decoration: line-through;
+}
+/* general sibling */
+div ~ p {
+  font-family: cursive;
+  font-size: xx-large;
+}
