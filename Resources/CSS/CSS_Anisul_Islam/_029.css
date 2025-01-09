@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  background-color: #e4f9f5;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img {
+  height: 100 px;
+  width: 120px;
+  border: 3px solid rgba(5, 225, 245, 0.911);
+  border-radius: 50%;
+  float: left;
+}
+
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+
+.header-contact a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+.div1 {
+  clear: both;
+}
+
+hr {
+  border: 3px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+/* personal section */
+#personal-section {
+}
+.content {
+  margin: 30px;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: left;
+}
+.common-hr {
+  border: solid green 1px;
+  border-bottom: none;
+  margin: 20px;
+}
+/* work experience section */
+#work-experience {
+}
+/* key skill section */
+#key-skill-section {
+}
+/* Education section part */
+.edu-left {
+  float: left;
+  width: 45%;
+}
+.edu-right {
+  float: right;
+  width: 45%;
+}
+/* footer start */
+.footer {
+  background-color: black;
+  padding: 10px;
+
+  text-align: center;
+}
+.footer a {
+  text-decoration: solid;
+  color: whitesmoke;
+  margin: 15px;
+}
+.footer p {
+  text-decoration: solid;
+  color: tomato;
+
+  margin-top: 15px;
+}

@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  color: red;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px lightgreen;
+}
+
+h1:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+/* Calculator start here */
+* {
+  margin: 0;
+  padding: 0;
+}
+title {
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 5px lightgray;
+  transition: 0.3s;
+  font-size: 0;
+}
+.card:hover {
+  box-shadow: 0 16px 0 10px lightgray;
+}
+.cal-head #result {
+  width: 330px;
+  height: 100px;
+  font-size: 30px;
+  text-align: right;
+  font-weight: bolder;
+  padding: 0 7px;
+  letter-spacing: 3px;
+}
+.btn {
+  width: 65px;
+  height: 65px;
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 50%;
+  background-color: lightslategray;
+  color: white;
+}
+.side-btn {
+  background-color: lightseagreen;
+}
+.btn:hover {
+  background-color: lightseagreen;
+  color: white;
+}

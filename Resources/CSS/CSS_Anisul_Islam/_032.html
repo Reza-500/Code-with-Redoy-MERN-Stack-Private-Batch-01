@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02 no. video</title>
+  <style>
+    .div1 {
+      background-color: lightcoral;
+      border: 3px solid green;
+      padding: 5px;
+      height: 180px;
+      width: 250px;
+      overflow: auto;
+    }
+
+    .tooltip .tool-text {
+
+      width: 120px;
+      background-color: tomato;
+      color: beige;
+      padding: 5px;
+      border-radius: 15px;
+      position: absolute;
+      left: 30px;
+      top: 100px;
+      z-index: 1;
+      visibility: hidden;
+    }
+
+    .tooltip:hover .tool-text {
+      visibility: visible;
+    }
+    .para{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Here we know about tooltip & overflow</h1>
+  <a href="#" class="tooltip">Facebook
+    <span class="tool-text">It's a social platform</span>
+  </a> <br><br>
+  <div class="div1"> <p class="para">Hello Bangladsh</p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit labore eius voluptatem, ipsa
+    voluptatum necessitatibus minus fuga impedit quos porro. ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+    accusamus officia ipsum! Dolores perferendis recusandae inventore voluptatum minima minus, consequuntur quod quis
+    saepe eveniet alias rerum non itaque placeat explicabo ipsum, voluptas, omnis doloribus mollitia dolorum! Totam,
+    fugit dignissimos. Nobis, architecto! Libero dolore sed fugiat nulla magnam magni, aspernatur suscipit?</div>
+
+</body>
+
+</html>
